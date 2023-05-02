@@ -1,6 +1,3 @@
-
-// import java.awt.event.ActionEvent;
-// import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.*;
@@ -12,8 +9,6 @@ public class Gameplay extends JPanel {
 	private ArrayList<Opponent> opponents;
 	Player player;
 	
-	// Opponent opponent;
-
 	public Gameplay(int size) {
 		SIZE = size;
 		opponents = new ArrayList<>();
