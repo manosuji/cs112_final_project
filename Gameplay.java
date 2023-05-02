@@ -7,9 +7,6 @@ import java.awt.*;
 import javax.swing.*;
 import java.util.ArrayList;
 
-/**
- * This program displays the growth of an bank account
- */
 public class Gameplay extends JPanel {
 	private final int SIZE;
 	private ArrayList<Opponent> opponents;
